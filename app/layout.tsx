@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-head-element */
 import Link from 'next/link';
 import './globals.css';
 
@@ -10,17 +9,11 @@ export default function RootLayout({
   return (
     <html>
       <body>
-        <main>
-          <nav>
-            <Link href="/">
-              Home
-            </Link>
-            <Link href="/notes">
-              Notes
-            </Link>
-          </nav>
-          {children}
-        </main>
+        <nav>
+          <Link href="/">Home</Link>
+          <Link href="/notes">Notes</Link>
+        </nav>
+        <main>{children}</main>
       </body>
     </html>
   );
