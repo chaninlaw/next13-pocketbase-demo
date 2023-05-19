@@ -1,16 +1,13 @@
 ## Next 13 Demo
 
-Build a basic note-taking app with Next.js 13 and Pocketbase. 
+Basic note-taking app with Next.js 13 and Pocketbase. 
 
-### Setup
+### Start project
 
-1. Create a new Next.js app:
-`npx create-next-app@latest --ts`
+- Open a project:
+`npm run dev`
 
-2. Download Pocketbase from [pocketbase.io](pocketbase.io)
-3. Navigate to the unzipped directory
-`cd pocketbase`
-1. Start Pocketbase:
-`./pocketbase serve`
-1. Open the [Admin UI](http://127.0.0.1:8090/_/), create collection, and update security rules to allow read/write access. 
-2. Add `experimental: { appDir: true }` to `next.config.js`
+
+### [Pocketbase](pocketbase.io)
+
+- Open the [Admin UI](http://127.0.0.1:8090/_/), create collection, and update security rules to allow read/write access.
